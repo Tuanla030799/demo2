@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+h1 {
+	color: green;
+}
+
+table, th, td {
+	border: 1px solid green;
+	border-collapse: collapse;
+}
+
+.form__error {
+	color: red;
+	font-style: italic;
+}
+
+.form {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.form label {
+	color: green;
+	font-weight: 500;
+	font-size: 16px;
+	margin: 12px 0 8px;
+	display: block;
+}
+
+.form input[type=text] {
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+
+.form input[type=submit] {
+	margin-top: 28px;
+	width: 100%;
+	background-color: green;
+	color: aliceblue;
+	border: none;
+	padding: 8px;
+	border-radius: 4px;
+}
+
